@@ -1,0 +1,39 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(224, 235, 248);
+}
+
+.section {
+    border: solid 4px black;
+    margin: 2rem 2rem;
+    text-align: center;
+    background-color: rgb(119, 160, 236);
+}
+
+.section>div:nth-child(1) {
+    border: solid 2px green;
+    margin: 1rem;
+    text-align: center;    
+}
+
+.section>div:nth-child(2) {
+    border: solid 2px blue;
+    margin: 1rem;
+    text-align: left;
+}
+
+.section-about-me {height: 150px;}
+
+.section-work {width: 300px;}
+
+.section-hobbies {width: 300px;}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    background-color: #13293d;
+    color: #240d0d;
+  }
